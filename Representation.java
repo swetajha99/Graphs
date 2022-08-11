@@ -23,7 +23,7 @@
         arr.get(3).add(1);
         arr.get(1).add(3);
 
-        for(int i=0;i<n;i++){
+        for(int i=1;i<=n;i++){
             for(int j = 0;j<arr.get(i).size();j++){
                 System.out.print(arr.get(i).get(j)+" ");
             }
